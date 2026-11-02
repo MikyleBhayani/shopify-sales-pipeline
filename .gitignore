@@ -1,0 +1,9 @@
+storeinfo.py
+.env
+data/
+*.db
+*.csv
+.venv/
+__pycache__/
+.DS_Store
+dashboard_copy.py
