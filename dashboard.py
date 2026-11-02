@@ -6,7 +6,7 @@ import streamlit as st
 NAVY, LIGHT, GRAY = "#1E2D7D", "#8FA3E0", "#C9CED9"
 px.defaults.color_discrete_sequence = [NAVY]
 
-st.set_page_config(page_title="Aawaiz Sales", layout="wide")
+st.set_page_config(page_title="Sales Dashboard", layout="wide")
 st.title("Sales Dashboard")
 
 conn = sqlite3.connect("data/sales.db")
